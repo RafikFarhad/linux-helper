@@ -55,7 +55,7 @@ server {
    server_name localhost;
 
    location / {
-       try_files $uri $uri/ /index.php?\$query_string;
+       try_files \$uri \$uri/ /index.php?\$query_string;
    }
 
 location ~ \.php$ {

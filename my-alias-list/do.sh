@@ -7,3 +7,6 @@ cp .bash_aliases ~/
 
 echo "[Copy Completed]"
 
+source ~/.bashrc
+
+echo "[Alises Loaded]"

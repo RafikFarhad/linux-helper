@@ -17,7 +17,7 @@ mysql -u root
 
 mysql> FLUSH PRIVILEGES;
 Query OK, 0 rows affected (0.00 sec)
-mysql> SET PASSWORD FOR root@'localhost' = PASSWORD('linuxconfig.org');
+mysql> SET PASSWORD FOR root@'localhost' = PASSWORD('defaultpassword');
 Query OK, 0 rows affected, 1 warning (0.00 sec)
 mysql> quit     
 echo "${CYAN}-   -${NC}"
